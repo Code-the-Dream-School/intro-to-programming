@@ -28,7 +28,7 @@ Grading for this project is less rigid, given the open-ended instructions ([View
 
 ### **Section 5:** How the Internet Works
 
-- [Lesson 5.1: How the Internet Works and Debugging](instructions/section-5/lesson-5-1.md)
+- [Lesson 5.1: How the Internet Works and Debugging](instructions/section-5#readme)
 
 ### **Section 6:** AJAX Basics
 
