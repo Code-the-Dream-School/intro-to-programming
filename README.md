@@ -28,7 +28,7 @@ Grading for this project is less rigid, given the open-ended instructions ([View
 
 ### **Section 5:** How the Internet Works
 
-- [Lesson 5.1: How the Internet Works and Debugging](instructions/section-5#readme)
+- [Lesson 5.1: How the Internet Works and Debugging](https://github.com/Code-the-Dream-School/intro-to-programming-section-5/blob/main/README.md)
 
 ### **Section 6:** AJAX Basics
 
