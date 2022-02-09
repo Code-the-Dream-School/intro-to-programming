@@ -2,6 +2,8 @@
 
 # How to: Submit an Assignment
 
+This info can also be found [here](https://docs.google.com/document/d/1Z7SeCvDYKFcdDtDBApJkyVk2gVof4pAafEmnrOCdrPY/edit).
+
 ## Step 1: Locate the "Shortcuts" icon in Slack
 
 ![Submit Assignment: Step 1](../assets/submit-assignment/step-1.png)
