@@ -28,9 +28,6 @@ Be sure that you're creating a pull request to *your* base repository (the circl
 
 ![Create Pull Request: Step 6](../assets/create-pull-request/step-6.jpg)
 
-## Next Step
-
-Copy the URL to the pull request you just created and follow this tutorial for submitting your assignment: [View instructions](../common/how-to-submit.md)
 
 ---
 
