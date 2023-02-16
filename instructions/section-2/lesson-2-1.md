@@ -27,7 +27,7 @@ You should be directed to your forked GitHub repository:
 
 ![Fork Assignment: Step 3](../assets/fork-assignment/step-3.jpg)
 
-Click the "Code" button and copy the URL for your repository:
+Click the "Code" button, select HTTPS (NOT SSH which is underlined in this image) and copy the URL for your repository:
 
 ![Fork Assignment: Step 4](../assets/fork-assignment/step-4.jpg)
 
