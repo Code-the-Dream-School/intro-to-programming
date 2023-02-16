@@ -23,7 +23,7 @@ Select your GitHub account from the list and click the green Create Fork button 
 
 ![Fork Assignment: Step 2](../assets/fork-assignment/fork-step-2.png)
 
-You should be directed to your forked GitHub repository:
+You should be directed to your forked GitHub repository so you will see your username in the top left instead of Code-the-Dream-School
 
 ![Fork Assignment: Step 3](../assets/fork-assignment/fork-step-3.png)
 
