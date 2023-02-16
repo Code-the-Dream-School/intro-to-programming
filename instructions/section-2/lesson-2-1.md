@@ -47,7 +47,7 @@ Check to be sure you've got the correct GitHub repository linked to your local f
 
     git remote -v
 
-You should see the following as the result from running the above command where <url> is the address of your forked copy of the repository (which should look like `https://github.com/yourGitHubUsername/classname-intro.git`):
+After running the above command, you should see the next two lines in your terminal where <url> is the address of your forked copy of the repository (which should look like `https://github.com/yourGitHubUsername/classname-intro.git`):
 
     origin <url> (fetch)
     origin <url> (push)
