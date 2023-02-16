@@ -19,7 +19,7 @@ Fork this GitHub repository to create your own working version:
 
 ![Fork Assignment: Step 1](../assets/fork-assignment/fork-step-1.png)
 
-Select your GitHub account from the list:
+Select your GitHub account from the list and click the green Create Fork button to copy this repository from the Code the Dream School GitHub account to your personal GitHub account
 
 ![Fork Assignment: Step 2](../assets/fork-assignment/fork-step-2.png)
 
