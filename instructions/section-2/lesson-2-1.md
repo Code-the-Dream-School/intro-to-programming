@@ -17,19 +17,19 @@ This assignment will teach you the following:
 
 Fork this GitHub repository to create your own working version:
 
-![Fork Assignment: Step 1](../assets/fork-assignment/step-1.jpg)
+![Fork Assignment: Step 1](../assets/fork-assignment/fork-step-1.png)
 
 Select your GitHub account from the list:
 
-![Fork Assignment: Step 2](../assets/fork-assignment/step-2.jpg)
+![Fork Assignment: Step 2](../assets/fork-assignment/fork-step-2.png)
 
 You should be directed to your forked GitHub repository:
 
-![Fork Assignment: Step 3](../assets/fork-assignment/step-3.jpg)
+![Fork Assignment: Step 3](../assets/fork-assignment/fork-step-3.png)
 
-Click the "Code" button, select HTTPS (NOT SSH which is underlined in this image) and copy the URL for your repository:
+(1) Click the "Code" button, (2) select HTTPS and (3) copy the URL for your repository:
 
-![Fork Assignment: Step 4](../assets/fork-assignment/step-4.jpg)
+![Fork Assignment: Step 4](../assets/fork-assignment/fork-step-4.png)
 
 Clone this repository so that the code is available on your local machine:
 
