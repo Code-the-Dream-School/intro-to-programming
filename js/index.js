@@ -7,13 +7,13 @@ copyright.innerHTML = `&copy Tatyana Li, ${thisYear}`;
 footer.appendChild(copyright);
 
 //Adding Skills section
-//const skills = ['Javascript', 'HTML', 'GitHub'];
-//const skillsSection = document.getElementById('skills');
+const skills = ['Javascript', 'HTML', 'GitHub'];
+const skillsSection = document.getElementById("skills");
 
-//skillsList = skillsSections.querySelector('ul');
+skillsList = skillsSection.querySelector('ul');
 
-//for (let i = 0, i < skills.length; i++) {
-  //  const skill = document.createElement('li');
-   // skill.innerHTML = `${skills[i]}`;
-   // skillsList.appendChild(skill);
-//}
+for (let i = 0; i < skills.length; i++) {
+  const skill = document.createElement('li');
+   skill.innerHTML = `${skills[i]}`;
+   skillsList.appendChild(skill);
+}
