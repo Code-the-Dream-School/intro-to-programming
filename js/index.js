@@ -9,7 +9,7 @@ footer.appendChild(copyright);
 //Adding Skills
 
 const skills = ['HTML', 'Javascript', 'GitHub'];
-const skillsSection = document.getElementById('skills');
+const skillsSection = document.getElementById("skills");
 
 skillsList = skillsSection.querySelector('ul');
 
@@ -20,18 +20,17 @@ for (let i = 0; i < skills.length; i++) {
 }
 
 //Adding Messages
+const messageSection = document.getElementById('messages');
+const messageForm = document.getElementsByName('leave_message');
 
-//const messageSection = document.getElementById('messages');
-// const messageForm = document.getElementsByName('leave_message');
+// // //Adding event listener
+ messageForm.item(0).addEventListener('submit', (event) => {
+event.preventDefault();
 
-// //Adding event listener
-// messageForm.item(0).addEventListener('submit', (event) => {
-//   event.preventDefault();
-
-//   const name = event.target.name.value;
-//   const email = event.target.email.value;
-//   const message = event.target.message.value;
-//   const messageList = messageSection.querySelector('ul');
-//   const newMessage = document.createElement('li');
+const name = event.target.name.value;
+const email = event.target.email.value;
+const message = event.target.message.value;
+const messageList = messageSection.querySelector('ul');
+const newMessage = document.createElement('li');
   
-// }
+})
