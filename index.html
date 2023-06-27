@@ -6,6 +6,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+        <link rel = "stylesheet" href="css/index.css">
     </head>
 
     <body>
@@ -17,22 +18,40 @@
 
         <section>
             <h2>Experience</h2>
-            <ul>
-                <li>H&R Block</li>
-                <li>Syneos Health</li>
-                <li>Parexel</li>
-            </ul>
+                <ul class="blocks">
+                    <li class="block">Specialist - H&R Block</li>
+                    <li class="block">Specialist - Syneos Health</li>
+                    <li class="block">System Support Analyst - Parexel</li>
+                </ul>
         </section>
 
         <section id = "skills">
             <h2>Skills</h2>
-            <ul></ul>
+            <ul class="skills-border"></ul>
         </section>
 
         <section>
             <h2>Connect</h2>
             <a href="https://www.facebook.com/tanya.lee.73345">My facebook page</a>
             <a href="https://github.com/litatyana1/intro-to-programming">My GitHub portfolio</a>
+        </section>
+
+        <section id="form">
+            <h2>Leave a Message</h2>
+            <form id = "leave_message" name = "leave_message">
+                <label for = "name">Name:</label><br>
+                <input id = "name" type = "text" name = "name" required = "true"><br>
+                <label for = "email">E-mail:</label><br>
+                <input id = "email" type = "email" name = "email" required = "true"><br>
+                <label for = "message">Message:</label><br>
+                <textarea id = "message" name = "message" required = "true"></textarea><br>
+                <button type = "submit">Submit</button>
+            </form>
+        </section>
+
+        <section id = 'messages' style="display: none">
+            <h2>Messages</h2>
+            <ul></ul>
         </section>
 
         <footer>
