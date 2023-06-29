@@ -5,6 +5,10 @@ body {
     margin: 0.5rem;
     padding: 0.5rem;
 }
+section {
+    margin: 0.75rem;
+    padding: 0.75rem;
+}
 
 h1, h2 {
   font-size: 35px;  
