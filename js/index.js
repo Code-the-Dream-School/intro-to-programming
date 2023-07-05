@@ -8,7 +8,7 @@ footer.appendChild(copyright);
 
 //Adding Skills
 
-const skills = ['HTML', 'Javascript', 'GitHub']
+const skills = ['HTML', 'Javascript', 'GitHub', 'CSS']
 const skillsSection = document.getElementById("skills")
 
 skillsList = skillsSection.querySelector('ul')
