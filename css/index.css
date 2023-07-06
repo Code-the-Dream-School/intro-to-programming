@@ -1,137 +1,133 @@
 body {
-    background-color: rgb(235, 240, 243);
-    color: rgb(29, 10, 113);
-    font-family: montserrat;
-    margin: 0.5rem;
-    padding: 0.5rem;
+  background-color: rgb(235, 240, 243);
+  color: rgb(29, 10, 113);
+  font-family: montserrat;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 section {
-    margin: 0.75rem;
-    padding: 0.75rem;
-
+  margin: 0.75rem;
+  padding: 0.75rem;
 }
 
-
-h1, h2 {
-  font-size: 35px;  
+h1,
+h2 {
+  font-size: 35px;
   font-weight: bolder;
   color: rgb(37, 19, 88);
 }
 ul {
-    margin-left: 0;
-    padding-left: 0;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 .skills-border li {
-    border: 2px solid;
-    border-radius: 1rem ;
-    margin: 0.5rem;
-    padding: 0.25rem 0.75rem;
-    display: inline-block;
-
-} 
-
+  border: 2px solid;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  display: inline-block;
+}
 
 .blocks li {
-    padding: 0.5rem 0.75rem;
-    border-radius: 10px;
-    background-color: rgb(218, 212, 212);
-    border: 2px grey;
-    display: grid;
-    margin-bottom: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  background-color: rgb(218, 212, 212);
+  border: 2px grey;
+  display: grid;
+  margin-bottom: 0.5rem;
 }
 #form label {
-    color: rgb(42, 6, 90);
-    font-size: 1rem;
+  color: rgb(42, 6, 90);
+  font-size: 1rem;
 }
 
-#form input, textarea {
-    font-size: 1rem;
-    margin: 0.5rem;
-    padding: 0.5rem;
-    border: groove;
+#form input,
+textarea {
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: groove;
 }
 button {
-    color: black;
-    background-color: lightgrey;
-    border: 2px grey;
-    margin: 0.5rem;
-    padding: 0.5rem;
+  color: black;
+  background-color: lightgrey;
+  border: 2px grey;
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 #messages li {
-    border: 2px grey;
-    border-radius: 10px;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem;
-    display: block;
+  border: 2px grey;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  display: block;
 }
 footer {
-    background-color: rgb(214, 221, 240);
-    margin: 0.5rem;
-    padding: 0.5rem;
+  background-color: rgb(214, 221, 240);
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 @media (min-width: 769px) {
-    .main-header,
-    .main-nav {
-        display: flex;
-        padding: 1rem;
-        overflow: auto;
-    }
+  .main-header,
+  .main-nav {
+    display: flex;
+    padding: 1rem;
+    overflow: auto;
+  }
 
-    .main-header {
-        flex-direction: column;
-        align-items:center;
-    }
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media (min-width: 1025px) {
-    .main-header {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
+  .main-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 /* Navigation links */
 .main-nav a {
-    float: left;
-    display: block;
-    color: rgb(29, 10, 113);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border-bottom: 3px transparent;
-  }
+  float: left;
+  display: block;
+  color: rgb(29, 10, 113);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px transparent;
+}
 
 /* Add a bottom border */
 .main-nav a:hover {
-    border-bottom: 3px solid red;
+  border-bottom: 3px solid red;
 }
-  /* Style the current/active link */
+/* Style the current/active link */
 .main-nav a.active {
-    border-bottom: 3px solid red;
+  border-bottom: 3px solid red;
 }
-
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
-  /* @media screen and (max-width: 500px) { 
+/* @media screen and (max-width: 500px) { 
     .main-nav a {
       float: none;
       display: block;
       width: 100%;
-      text-align: left; /* If you want the text to be left-aligned on small screens */
+      text-align: left; // If you want the text to be left-aligned on small screens 
     }
   } */
-  .main-header {
-    padding: 10px 16px;
-  }
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
-  .sticky + .content {
-    padding-top: 102px;
-  }
+.main-header {
+  padding: 10px 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
