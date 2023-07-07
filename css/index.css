@@ -134,13 +134,13 @@ footer {
       text-align: left; // If you want the text to be left-aligned on small screens 
     }
   } */
-  .main-header {
+  /*.main-header {
     background-color: grey;
     padding: 10px 16px;
     position: sticky;
     top: 0;
     width: 100%
-  }
+  }*/
 
   .field {
     display: block;
