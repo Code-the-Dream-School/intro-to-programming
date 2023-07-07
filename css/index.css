@@ -15,12 +15,8 @@ section {
     display: inline-block;
   }
   
-  .image-size {
+.image-size {
     width: 100px;
-  }
-  
-  .image-shape {
-    border-radius: var(--rounded-full);
   }
 
 h1, h2 {
