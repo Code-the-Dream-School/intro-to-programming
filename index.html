@@ -12,6 +12,11 @@
     <body>
         <header class="main-header">
             <h1 class="name"><a href="#">Tatyana Li</a></h1>
+            <img
+            class="image image-size image-shape"
+            src="img/tatyana.jpg"
+            alt="Tatyana's image"
+            />
             <ul class="main-nav">   
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
@@ -27,11 +32,11 @@
 
         <section id="experience">
             <h2>Experience</h2>
-                <ul class="blocks">
-                    <li class="block">Specialist - H&R Block</li>
-                    <li class="block">Specialist - Syneos Health</li>
-                    <li class="block">System Support Analyst - Parexel</li>
-                </ul>
+                <div class="container">
+                    <div class="grid-item">Specialist - H&R Block</div>
+                    <div class="grid-item">Specialist - Syneos Health</div>
+                    <div class="grid-item">System Support Analyst - Parexel</div>
+                </div>
         </section>
 
         <section id="skills">
@@ -47,13 +52,38 @@
 
         <section id="form">
             <h2>Leave a Message</h2>
-            <form id = "leave_message" name = "leave_message">
-                <label for = "name">Name:</label><br>
-                <input id = "name" type = "text" name = "name" required = "true"><br>
-                <label for = "email">E-mail:</label><br>
-                <input id = "email" type = "email" name = "email" required = "true"><br>
-                <label for = "message">Message:</label><br>
-                <textarea id = "message" name = "message" required = "true"></textarea><br>
+            <form name="leave_message">
+                <div class="field field-inline">
+                  <label class="field-name" for="user_name">Name</label>
+                  <input
+                    class="field-input"
+                    id="user_name"
+                    type="text"
+                    name="name"
+                    required
+                  />
+                </div>
+    
+                <div class="field field-inline">
+                  <label class="field-name" for="user_email">Email Address</label>
+                  <input
+                    class="field-input"
+                    id="user_email"
+                    type="email"
+                    name="email"
+                    required
+                  />
+                </div>
+    
+                <div class="field">
+                  <label class="field-name" for="user_message">Message</label>
+                  <textarea
+                    class="field-input"
+                    id="user_message"
+                    name="message"
+                    required
+                  ></textarea>
+                </div>
                 <button type = "submit">Submit</button>
             </form>
         </section>
