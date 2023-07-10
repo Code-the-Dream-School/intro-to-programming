@@ -64,13 +64,7 @@ li {
     padding: 0.5rem;
     border: groove;
 }*/
-button {
-    color: black;
-    background-color: lightgrey;
-    border: 2px grey;
-    margin: 0.1rem;
-    padding: 0.5rem;
-}
+
 #messages li {
     border: 2px grey;
     border-radius: 10px;
@@ -134,19 +128,22 @@ footer {
       text-align: left; // If you want the text to be left-aligned on small screens 
     }
   } */
-  /*.main-header {
-    background-color: grey;
+  .main-header {
     padding: 10px 16px;
     position: sticky;
     top: 0;
     width: 100%
-  }*/
+    
+  }
 
-  .field {
-    display: block;
+  .boxfield {
+    /* display: grid; */
     margin-bottom: 1rem;
-    max-width: auto;
-    width: auto;
+    width: 20%;
+    /* max-width: auto; */
+    /* width: auto; */
+    /* margin-left: 20px; */
+    /* grid-template-columns: 1fr; */
   }
   
   .field-inline {
@@ -169,10 +166,49 @@ footer {
     padding: 0.25rem 0.5rem;
     width: 100%;
   }
-  .field {
-    width: 32rem;
-  }
+  
 
   .field-inline {
     width: 14.75rem;
   }
+
+  #boxfield-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+  #boxfield-bottom{
+    width: 100%;
+  }
+  #boxfield-bottom  {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 10px;
+    
+  }
+
+  button {
+    background-color: rgb(60, 60, 240);
+    border-radius: 5px;
+    color: white;
+    min-width: 100px;
+    padding: 0.5rem 1rem;
+    border-style: none;
+    
+  }
+  @media screen and (min-width: 768px) {
+      
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .field {
+      width: 32rem;
+    }
+  
+    .field-inline {
+      width: 15.35rem;
+    }
+  }
+  

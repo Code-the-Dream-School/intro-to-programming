@@ -12,7 +12,7 @@
     <body>
         <header class="main-header">
             <h1 class="name"><a href="#">Tatyana Li</a></h1>
-            <img
+           <img
             class="image image-size"
             src="img/tatyana.jpg"
             alt="Tatyana's image"
@@ -52,39 +52,50 @@
 
         <section id="form">
             <h2>Leave a Message</h2>
-            <form name="leave_message">
-                <div class="field field-inline">
-                  <label class="field-name" for="user_name">Name</label>
-                  <input
-                    class="field-input"
-                    id="user_name"
-                    type="text"
-                    name="name"
-                    required
-                  />
-                </div>
+            <form name="leave_message"
+            >
+            <div class="boxfield">
+
+                <div id="boxfield-top">
+                    <div class="field field-inline">
+                      <label class="field-name" for="user_name">Name</label>
+                      <input
+                        class="field-input"
+                        id="user_name"
+                        type="text"
+                        name="name"
+                        required
+                      />
+                    </div>
     
-                <div class="field field-inline">
-                  <label class="field-name" for="user_email">Email Address</label>
-                  <input
-                    class="field-input"
-                    id="user_email"
-                    type="email"
-                    name="email"
-                    required
-                  />
+                    <div class="field field-inline">
+                      <label class="field-name" for="user_email">Email Address</label>
+                      <input
+                        class="field-input"
+                        id="user_email"
+                        type="email"
+                        name="email"
+                        required
+                      />
+                    </div>
                 </div>
-    
-                <div class="field">
-                  <label class="field-name" for="user_message">Message</label>
-                  <textarea
-                    class="field-input"
-                    id="user_message"
-                    name="message"
-                    required
-                  ></textarea>
+                
+                <div id="boxfield-bottom">
+                    <div class="field">
+                      <label class="field-name" for="user_message">Message</label>
+                      <textarea
+                        class="field-inputmessage"
+                        id="user_message"
+                        name="message"
+                        required
+                      ></textarea>
+                    </div>
                 </div>
-                <button type = "submit">Submit</button>
+            <button type = "submit">Submit</button>
+                </form>
+
+
+        </div>
             </form>
         </section>
 
