@@ -21,6 +21,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#connect">Connect</a></li>
             </ul>
         </header>
@@ -44,6 +45,12 @@
             <ul class="skills-border"></ul>
         </section>
 
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+            </ul>
+          </section>
+
         <section id="connect">
             <h2>Connect</h2>
             <a href="https://www.facebook.com/tanya.lee.73345">My facebook page</a>
@@ -52,54 +59,22 @@
 
         <section id="form">
             <h2>Leave a Message</h2>
-            <form name="leave_message"
-            >
-            <div class="boxfield">
+            <form name="leave_message">
+                <label class="field-name" for="user_name">Name</label>
+                <input class="field-input" id="user_name" type="text" name="name" required />
 
-                <div id="boxfield-top">
-                    <div class="field field-inline">
-                      <label class="field-name" for="user_name">Name</label>
-                      <input
-                        class="field-input"
-                        id="user_name"
-                        type="text"
-                        name="name"
-                        required
-                      />
-                    </div>
-    
-                    <div class="field field-inline">
-                      <label class="field-name" for="user_email">Email Address</label>
-                      <input
-                        class="field-input"
-                        id="user_email"
-                        type="email"
-                        name="email"
-                        required
-                      />
-                    </div>
-                </div>
-                
-                <div id="boxfield-bottom">
-                    <div class="field">
-                      <label class="field-name" for="user_message">Message</label>
-                      <textarea
-                        class="field-inputmessage"
-                        id="user_message"
-                        name="message"
-                        required
-                      ></textarea>
-                    </div>
-                </div>
-            <button type = "submit">Submit</button>
-                </form>
+                <label class="field-name" for="user_email">Email Address</label>
+                <input class="field-input" id="user_email" type="email" name="email" required />
 
+                <label class="field-name" for="user_message">Message</label>
+                <textarea class="field-inputmessage" id="user_message" name="message" required></textarea>
 
-        </div>
+                <button type="submit">Submit</button>
+
             </form>
         </section>
 
-        <section id = 'messages' style="display: none">
+        <section id="messages" style="display: none">
             <h2>Messages</h2>
             <ul></ul>
         </section>
@@ -108,7 +83,7 @@
 
         </footer>
 
-        <script src = "js/index.js"></script>
+        <script src="js/index.js"></script>
 
     </body>
 </html>

@@ -39,8 +39,9 @@ const messageForm = document.getElementsByName('leave_message');
 
     //Creating remove button
     const removeButton = document.createElement('button');
-    removeButton.innerHTML = "Remove";
+    removeButton.innerHTML = 'Remove';
     removeButton.type = 'button';
+    
     removeButton.addEventListener('click', () => {
       const entry = removeButton.parentNode;
       entry.remove();
@@ -52,3 +53,26 @@ const messageForm = document.getElementsByName('leave_message');
     messageSection.style.display = "block";
     messageForm.item(0).reset();
 });
+
+//Adding JSON/AJAX project link
+  let githubRequest = new XMLHttpRequest();
+  githubRequest.open('GET', 'https://api.github.com/users/litatyana1/repos');
+  githubRequest.send();
+
+  githubRequest.addEventListener('load', function () {
+  let repositories = JSON.parse(githubRequest.response);
+  console.log(repositories);
+  
+
+  let projectSection = document.getElementById("projects");
+  let projectList = projectSection.querySelector('ul')
+  for (let i = 0; i < repositories.length; i++ ) {
+  const project = document.createElement('li')
+  project.innerHTML += `<a href = "${repositories[i].html_url}" target="_blank"> ${repositories[i].name} </a>`;
+  projectList.appendChild(project);
+  }
+  }
+  );
+
+
+  

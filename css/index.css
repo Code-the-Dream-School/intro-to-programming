@@ -1,58 +1,76 @@
-body {
-    background-color: rgb(235, 240, 243);
-    color: rgb(29, 10, 113);
-    font-family: montserrat;
-    margin: 0.5rem;
-    padding: 0.5rem;
+html {
+  scroll-padding-top: 4rem;
 }
-section {
-    margin: 0.75rem;
-    padding: 0.75rem;
 
+.main-header {
+  background-color: lightgray;
+  padding: 10px 16px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 4rem;
+}
+
+body {
+  background-color: rgb(235, 240, 243);
+  color: rgb(29, 10, 113);
+  font-family: montserrat;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+section {
+  margin: 0.75rem;
+  padding: 0.75rem;
 }
 
 .image {
-    display: inline-block;
-  }
-  
-.image-size {
-    width: 100px;
-  }
+  display: inline-block;
+}
 
-h1, h2 {
-  font-size: 35px;  
+.image-size {
+  width: 100px;
+}
+
+h1,
+h2 {
+  font-size: 35px;
   font-weight: bolder;
   color: rgb(37, 19, 88);
 }
+
 ul {
-    margin-left: 0;
-    padding-left: 0;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
-.skills-border li {
-    border: 2px solid;
-    border-radius: 1rem ;
-    margin: 0.5rem;
-    padding: 0.25rem 0.75rem;
-    display: inline-block;
 
-} 
-.container {
-    display: grid;
-    max-width: auto;
-    grid-template-rows: auto auto auto;
-    grid-gap:  5px;
-    grid-auto-flow: row;
-  }
-.grid-item {
-    padding: 0.5rem 0.75rem;
-    border-radius: 10px;
-    background-color: rgb(218, 212, 212);
-    margin-bottom: 0.75rem;
+.skills-border li {
+  border: 2px solid;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  display: inline-block;
 }
+
+.container {
+  display: grid;
+  max-width: auto;
+  grid-template-rows: auto auto auto;
+  grid-gap: 5px;
+  grid-auto-flow: row;
+}
+
+.grid-item {
+  padding: 0.5rem 0.75rem;
+  border-radius: 10px;
+  background-color: rgb(218, 212, 212);
+  margin-bottom: 0.75rem;
+}
+
 /*#form label {
     color: rgb(42, 6, 90);
     font-size: 1rem;
@@ -66,61 +84,41 @@ li {
 }*/
 
 #messages li {
-    border: 2px grey;
-    border-radius: 10px;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem;
-    display: block;
+  border: 2px grey;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 2fr 0.1fr;
+  grid-template-rows: auto auto;
 }
+
 footer {
-    background-color: rgb(214, 221, 240);
-    margin: 0.5rem;
-    padding: 0.5rem;
-}
-@media (min-width: 769px) {
-    .main-header,
-    .main-nav {
-        display: flex;
-        padding: 1rem;
-        overflow: auto;
-    }
-
-    .main-header {
-        flex-direction: column;
-        align-items:center;
-    }
-}
-@media (min-width: 1025px) {
-    .main-header {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
+  background-color: rgb(214, 221, 240);
+  margin: 0.5rem;
+  padding: 0.5rem;
 }
 /* Navigation links */
 .main-nav a {
-    float: left;
-    display: block;
-    color: rgb(29, 10, 113);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border-bottom: 3px transparent;
-  }
-
+  float: left;
+  display: block;
+  color: rgb(29, 10, 113);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px transparent;
+}
 /* Add a bottom border */
 .main-nav a:hover {
-    border-bottom: 3px solid red;
+  border-bottom: 3px solid red;
 }
-  /* Style the current/active link */
+/* Style the current/active link */
 .main-nav a.active {
-    border-bottom: 3px solid red;
+  border-bottom: 3px solid red;
 }
-
-
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
-  /* @media screen and (max-width: 500px) { 
+/* @media screen and (max-width: 500px) { 
     .main-nav a {
       float: none;
       display: block;
@@ -128,87 +126,71 @@ footer {
       text-align: left; // If you want the text to be left-aligned on small screens 
     }
   } */
-  .main-header {
-    padding: 10px 16px;
-    position: sticky;
-    top: 0;
-    width: 100%
-    
-  }
 
-  .boxfield {
-    /* display: grid; */
-    margin-bottom: 1rem;
-    width: 20%;
-    /* max-width: auto; */
-    /* width: auto; */
-    /* margin-left: 20px; */
-    /* grid-template-columns: 1fr; */
-  }
-  
-  .field-inline {
-    display: inline-block;
-    margin-right: 2rem;
-  }
-  
-  .field-name,
-  .field-input {
-    display: block;
-  }
-  
-  .field-name {
-    color: var(--color-dark);
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-  }
-  
-  .field-input {
+/* .boxfield {
+  display: grid; 
+  margin-bottom: 1rem;
+  width: 20%;
+    max-width: auto; 
+  width: auto; 
+  margin-left: 20px; 
+  grid-template-columns: 1fr;  */
+
+.field-name,
+.field-input {
+  display: grid;
+}
+
+.field-name {
+    display: grid;
+  color: var(--color-dark);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+.field-input {
+    display: grid;
     padding: 0.25rem 0.5rem;
-    width: 100%;
-  }
-  
+    width: 30%;
+}
 
-  .field-inline {
-    width: 14.75rem;
-  }
-
-  #boxfield-top {
+.field-inputmessage {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    padding: 0.25rem 0.5rem;
+    width: 30%;
+    margin-bottom: 2rem;
+}
 
-  }
-  #boxfield-bottom{
-    width: 100%;
-  }
-  #boxfield-bottom  {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-bottom: 10px;
-    
-  }
-
-  button {
+button {
+ display: grid;
     background-color: rgb(60, 60, 240);
     border-radius: 5px;
     color: white;
-    min-width: 100px;
-    padding: 0.5rem 1rem;
+    min-width: 80px;
+    padding: 1rem;
     border-style: none;
-    
+    max-height: 1rem;
+    align-content: center;
+}
+
+@media (min-width: 769px) {
+  .main-header,
+  .main-nav {
+    display: flex;
+    padding: 1rem;
+    overflow: auto;
   }
-  @media screen and (min-width: 768px) {
-      
-    .container {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  
-    .field {
-      width: 32rem;
-    }
-  
-    .field-inline {
-      width: 15.35rem;
-    }
+
+  .main-header {
+    flex-direction: column;
+    align-items: center;
   }
-  
+}
+
+@media (min-width: 1025px) {
+  .main-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
