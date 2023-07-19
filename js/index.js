@@ -41,7 +41,7 @@ const messageForm = document.getElementsByName('leave_message');
     const removeButton = document.createElement('button');
     removeButton.innerHTML = 'Remove';
     removeButton.type = 'button';
-    
+
     removeButton.addEventListener('click', () => {
       const entry = removeButton.parentNode;
       entry.remove();
@@ -74,5 +74,31 @@ const messageForm = document.getElementsByName('leave_message');
   }
   );
 
+//   /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+// function myFunction() {
+//   var x = document.getElementById("myTopnav");
+//   if (x.className === "main-nav") {
+//     x.className += " responsive";
+//   } else {
+//     x.className = "main-nav";
+//   }
+// }
 
-  
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+}
