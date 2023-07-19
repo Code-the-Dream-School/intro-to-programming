@@ -3,7 +3,7 @@ html {
 }
 
 .main-header {
-  background-color: rgb(202, 226, 133);
+  background-color: #e0da1b;
   padding: 10px 16px;
   position: sticky;
   top: 0;
@@ -59,9 +59,10 @@ html {
 }
 
 body {
-  background-color: rgb(235, 240, 243);
+  background-color: #fff;
   color: rgb(106, 8, 106);
   font-family: montserrat;
+  font-size: 1.2rem;
   margin: 0.5rem;
   padding: 0.5rem;
 }
@@ -82,7 +83,7 @@ h1,
 h2 {
   font-size: 35px;
   font-weight: bolder;
-  color: rgb(106, 8, 106);
+  color: dark grey;
 }
 
 ul {
@@ -96,12 +97,13 @@ li {
 
 .skills-border li {
   border: 2px solid;
-  border-radius: 1rem;
+  border-color:  #a7417c;
+  border-radius: 10px;
   margin: 0.5rem;
   padding: 0.25rem 0.75rem;
   display: inline-block;
-  background-color: rgb(202, 226, 133);
-  font-weight: ;
+  background-color: #e0da1b;
+  box-shadow: 5px 5px 5px  #a7417c;
 }
 
 .container {
@@ -117,10 +119,14 @@ li {
   border-radius: 10px;
   background-image: linear-gradient(
     to left,
-    rgb(234, 78, 78),
-    rgb(202, 226, 133)
+    #a7417c,
+    #e0da1b
   );
   margin-bottom: 0.75rem;
+  box-shadow: 5px 5px 5px;
+  border: 2px solid;
+  border-color:  #a7417c;
+  box-shadow: 5px 5px 5px  #a7417c;
 }
 
 #messages li {
@@ -133,14 +139,36 @@ li {
   grid-template-rows: auto auto;
 }
 
+.fa {
+  padding: 5px;
+  width: 50px;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+/* .fa-facebook {
+  background: #3B5998;
+  color: white;
+}  */
+
 footer {
   background-image: linear-gradient(
     to left,
-    rgb(228, 84, 84),
-    rgb(202, 226, 133)
+    #a7417c,
+    #e0da1b
   );
   margin: 0.5rem;
   padding: 0.5rem;
+  font-size: 1rem;
 }
 
 .field-name,
@@ -171,7 +199,7 @@ footer {
 
 button {
   display: grid;
-  background-color: rgb(228, 84, 84);
+  background-color:  #a7417c;
   border-radius: 5px;
   color: white;
   min-width: 80px;
@@ -198,7 +226,7 @@ button {
     border-radius: 10px;
     text-align: center;
     transition: 0.3s;
-    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05,);
   }
 
   .navbar {
