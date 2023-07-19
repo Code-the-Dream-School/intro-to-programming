@@ -25,10 +25,10 @@ html {
 .bar {
   display: block;
   width: 25px;
-  height: 3px;
+  height: 3.5px;
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
-  background-color: black;
+  background-color: rgb(106, 8, 106);
 }
 
 .nav-menu {
@@ -41,21 +41,21 @@ html {
   margin-left: 2rem;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.4rem;
   font-weight: 400;
   color: rgb(106, 8, 106);
   text-decoration: none;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: rgb(228, 84, 84);
 }
 
 .name {
   font-size: 2.1rem;
   font-weight: bold;
-  color:  rgb(106, 8, 106);
+  color: rgb(106, 8, 106);
 }
 
 body {
@@ -71,18 +71,18 @@ section {
   padding: 0.75rem;
 }
 
-.circular--square { 
-  border-top-left-radius: 50% 50%; 
-  border-top-right-radius: 50% 50%; 
-  border-bottom-right-radius: 50% 50%; 
+.circular--square {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
   border-bottom-left-radius: 50% 50%;
- }
-  
+}
+
 h1,
 h2 {
   font-size: 35px;
   font-weight: bolder;
-  color:  rgb(106, 8, 106);
+  color: rgb(106, 8, 106);
 }
 
 ul {
@@ -100,7 +100,7 @@ li {
   margin: 0.5rem;
   padding: 0.25rem 0.75rem;
   display: inline-block;
-  background-color:rgb(202, 226, 133);
+  background-color: rgb(202, 226, 133);
   font-weight: ;
 }
 
@@ -115,21 +115,13 @@ li {
 .grid-item {
   padding: 0.5rem 0.75rem;
   border-radius: 10px;
-  background-image: linear-gradient(to left, rgb(234, 78, 78), rgb(202, 226, 133));
+  background-image: linear-gradient(
+    to left,
+    rgb(234, 78, 78),
+    rgb(202, 226, 133)
+  );
   margin-bottom: 0.75rem;
 }
-
-/*#form label {
-    color: rgb(42, 6, 90);
-    font-size: 1rem;
-}
-
-#form input, textarea {
-    font-size: 1rem;
-    margin: 0.5rem;
-    padding: 0.5rem;
-    border: groove;
-}*/
 
 #messages li {
   border: 2px grey;
@@ -142,35 +134,14 @@ li {
 }
 
 footer {
-  background-image: linear-gradient(to left, rgb(228, 84, 84), rgb(202, 226, 133));
+  background-image: linear-gradient(
+    to left,
+    rgb(228, 84, 84),
+    rgb(202, 226, 133)
+  );
   margin: 0.5rem;
   padding: 0.5rem;
 }
-/* Navigation links
-.nav-menu a {
-  float: left;
-  display: block;
-  color: rgb(29, 10, 113);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  border-bottom: 3px transparent;
-}
-/* Add a bottom border */
-/* .nav-menu a:hover {
-    background-color: #ddd;
-  color: black;
-} */
-/* Style the current/active link */
-/* .nav-menu a.active {
-    background-color: #04AA6D;
-    color: white;
-}
-
-.nav-menu .icon {
-    display: none;
-  }  */
 
 .field-name,
 .field-input {
@@ -178,7 +149,7 @@ footer {
 }
 
 .field-name {
-    display: grid;
+  display: grid;
   color: var(--color-dark);
   font-weight: 500;
   margin-bottom: 0.5rem;
@@ -186,131 +157,75 @@ footer {
 }
 
 .field-input {
-    display: grid;
-    padding: 0.25rem 0.5rem;
-    width: 30%;
+  display: grid;
+  padding: 0.25rem 0.5rem;
+  width: 30%;
 }
 
 .field-inputmessage {
-    display: grid;
-    padding: 0.25rem 0.5rem;
-    width: 30%;
-    margin-bottom: 2rem;
+  display: grid;
+  padding: 0.25rem 0.5rem;
+  width: 30%;
+  margin-bottom: 2rem;
 }
 
 button {
- display: grid;
-    background-color: rgb(228, 84, 84);
-    border-radius: 5px;
-    color: white;
-    min-width: 80px;
-    padding: 1rem;
-    border-style: none;
-    max-height: 1rem;
-    align-content: center;
+  display: grid;
+  background-color: rgb(228, 84, 84);
+  border-radius: 5px;
+  color: white;
+  min-width: 80px;
+  padding: 1rem;
+  border-style: none;
+  max-height: 1rem;
+  align-content: center;
 }
 
-    .nav-menu.responsive a {
-      float: none;
-      display: flex;
-      text-align: left;
-    }
-
-/* @media (max-width:1024px) {
-    .hamburger{
-        display: block;    
-    }
-    .hamburger.active.bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamburger.active.bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    } 
-    .hamburger.active.bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    } 
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color: blue;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-    }
-
-    .nav-item {
-        margin:16px 0;
-    }
-
-    .nav-menu.active {
-        left: 0;
-    }
-} */
+.nav-menu.responsive a {
+  float: none;
+  display: flex;
+  text-align: left;
+}
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
-      position: fixed;
-      left: -100%;
-      top: 5rem;
-      flex-direction: column;
-      background-color: #fff;
-      width: 100%;
-      border-radius: 10px;
-      text-align: center;
-      transition: 0.3s;
-      box-shadow:
-          0 10px 27px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
 
   .navbar {
     padding: 1.5rem;
   }
   .nav-menu.active {
-      left: 0;
+    left: 0;
   }
 
   .nav-item {
-      margin: 2.5rem 0;
+    margin: 2.5rem 0;
   }
 
   .hamburger {
-      display: block;
-      cursor: pointer;
+    display: block;
+    cursor: pointer;
   }
 
   .hamburger.active .bar:nth-child(2) {
-      opacity: 0;
+    opacity: 0;
   }
 
   .hamburger.active .bar:nth-child(1) {
-      transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
   }
 
   .hamburger.active .bar:nth-child(3) {
-      transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
   }
 }
-/* 
-@media (min-width: 769px) {
-  .main-header,
-  .nav-menu {
-    display: flex;
-    padding: 1rem;
-    overflow: auto;
-  }
-
-  .main-header {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-@media (min-width: 1025px) {
-  .main-header {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-} */

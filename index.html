@@ -1,97 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Tatyana Li</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
 
-    <head>
-        <title>Tatyana Li</title>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-        <link rel = "stylesheet" href="css/index.css">
-    </head>
+  <body>
+    <header class="main-header">
+      <nav class="navbar">
+        <h1 class="name">Tatyana Li</h1>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#connect" class="nav-link">Connect</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
 
-    <body>
-        <header class="main-header">
-            <nav class="navbar">
-            <h1 class="name">Tatyana Li</h1>
-            <ul class="nav-menu">   
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a></li>
-                <li class="nav-item">
-                    <a href="#experience" class="nav-link">Experience</a></li>
-                <li class="nav-item">
-                    <a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item">
-                    <a href="#projects" class="nav-link">Projects</a></li>
-                <li class="nav-item">
-                    <a href="#connect" class="nav-link">Connect</a></li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            </nav>
-        </header>
-        
-        <section id="about">
-            <h1>About</h1>
-            <img class="circular--square" src="img/tatyana.jpg" alt="Tatyana's image" style="width:128px;height:110px;"> 
-            <p>Highly motivated individual with a strong sence of accountability. Excellent communication skills that allow me to work well as part of the team or independently. Able to prioritize, set and meet goals and objectives while being reliable and honest</p>
-        </section>
+    <section id="about">
+      <h1>About</h1>
+      <img
+        class="circular--square"
+        src="img/tatyana.jpg"
+        alt="Tatyana's image"
+        style="width: 128px; height: 110px"
+      />
+      <p>
+        Highly motivated individual with a strong sence of accountability.
+        Excellent communication skills that allow me to work well as part of the
+        team or independently. Able to prioritize, set and meet goals and
+        objectives while being reliable and honest
+      </p>
+    </section>
 
-        <section id="experience">
-            <h2>Experience</h2>
-                <div class="container">
-                    <div class="grid-item">Specialist - H&R Block - 2016</div>
-                    <div class="grid-item">Specialist - Syneos Health - 2016-2020</div>
-                    <div class="grid-item">System Support Analyst - Parexel - 2020-current</div>
-                </div>
-        </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="container">
+        <div class="grid-item">Specialist - H&R Block - 2016</div>
+        <div class="grid-item">Specialist - Syneos Health - 2016-2020</div>
+        <div class="grid-item">
+          System Support Analyst - Parexel - 2020-current
+        </div>
+      </div>
+    </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul class="skills-border"></ul>
-        </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills-border"></ul>
+    </section>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-            </ul>
-          </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul></ul>
+    </section>
 
-        <section id="connect">
-            <h2>Connect</h2>
-            <a href="https://www.facebook.com/tanya.lee.73345">My facebook page</a>
-            <a href="https://github.com/litatyana1/intro-to-programming">My GitHub portfolio</a>
-        </section>
+    <section id="connect">
+      <h2>Connect</h2>
+      <a href="https://www.facebook.com/tanya.lee.73345">My facebook page</a>
+      <a href="https://github.com/litatyana1/intro-to-programming">My GitHub portfolio</a>
+    </section>
 
-        <section id="form">
-            <h2>Leave a Message</h2>
-            <form name="leave_message">
-                <label class="field-name" for="user_name">Name</label>
-                <input class="field-input" id="user_name" type="text" name="name" required />
+    <section id="form">
+      <h2>Leave a Message</h2>
+      <form name="leave_message">
+        <label class="field-name" for="user_name">Name</label>
+        <input
+          class="field-input"
+          id="user_name"
+          type="text"
+          name="name"
+          required
+        />
 
-                <label class="field-name" for="user_email">Email Address</label>
-                <input class="field-input" id="user_email" type="email" name="email" required />
+        <label class="field-name" for="user_email">Email Address</label>
+        <input
+          class="field-input"
+          id="user_email"
+          type="email"
+          name="email"
+          required
+        />
 
-                <label class="field-name" for="user_message">Message</label>
-                <textarea class="field-inputmessage" id="user_message" name="message" required></textarea>
+        <label class="field-name" for="user_message">Message</label>
+        <textarea
+          class="field-inputmessage"
+          id="user_message"
+          name="message"
+          required
+        ></textarea>
 
-                <button type="submit">Submit</button>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
 
-            </form>
-        </section>
+    <section id="messages" style="display: none">
+      <h2>Messages</h2>
+      <ul></ul>
+    </section>
 
-        <section id="messages" style="display: none">
-            <h2>Messages</h2>
-            <ul></ul>
-        </section>
+    <footer></footer>
 
-        <footer>
-
-        </footer>
-
-        <script src="js/index.js"></script>
-
-    </body>
+    <script src="js/index.js"></script>
+  </body>
 </html>
