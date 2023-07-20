@@ -135,8 +135,8 @@ li {
   margin-bottom: 0.5rem;
   padding: 0.5rem;
   display: grid;
-  grid-template-columns: 2fr 0.1fr;
-  grid-template-rows: auto auto;
+  grid-template-columns: 3fr 0.1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .fa {
@@ -215,6 +215,14 @@ button {
   text-align: left;
 }
 
+/* .dark-mode {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 3rem;
+  max-height: 1rem;
+} */
+
 @media only screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
@@ -256,4 +264,5 @@ button {
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+ 
 }
