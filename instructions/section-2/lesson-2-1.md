@@ -16,6 +16,7 @@ This assignment will teach you the following:
 ### Getting Started:
 
 Fork this GitHub repository to create your own working version:
+**Note: In the screenshot it shows a repository name for an old Intro class (eridanus).  The repository you should fork is the `intro-to-programming` one.**
 
 ![Fork Assignment: Step 1](../assets/fork-assignment/fork-step-1.png)
 
