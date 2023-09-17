@@ -18,7 +18,7 @@
 
 ## Step 4: Select the "Base" repository dropdown and choose your forked repository
 
-Be sure that you're creating a pull request to *your* base repository `yourGitHubUsername/intro-to-programming` and **NOT** the Code-the-Dream-School repository (where the arrow is pointing)!
+Be sure that you're creating a pull request to ***your* base repository `yourGitHubUsername/intro-to-programming`** and **NOT** the `Code-the-Dream-School/intro-to-programming` repository!
 
 ![Create Pull Request: Step 4](../assets/create-pull-request/step-4.jpg)
 
