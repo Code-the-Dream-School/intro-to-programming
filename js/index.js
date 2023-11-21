@@ -38,7 +38,9 @@ messageForm.addEventListener('submit', (e) => {
     removeButton.addEventListener('click', (e) => {
         const entry = removeButton.parentNode;
         entry.remove();
+
     })
     newMessage.appendChild(removeButton);
     messageList.appendChild(newMessage);
+    messageForm.reset();
 })
